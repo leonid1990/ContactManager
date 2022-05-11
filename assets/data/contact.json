@@ -1,0 +1,31 @@
+{
+  "city": "פתח תקוה",
+  "country": "ישראל",
+  "email": "moshe@gmail.com",
+  "phone": "0546897879",
+  "username": "moshe",
+  "profiles": [
+    {
+      "title": "title moshe",
+      "content": "content profile",
+      "linkprofiles": [
+        {
+          "url": "http://localhost:3000/api/#/linkprofiles/LinkprofileController_create",
+          "title": "link",
+          "categoryid": {
+            "categoryname": "medical file"
+          }
+        }
+      ],
+      "fileprofiles": [
+        {
+          "file": "files/CV.pdf",
+          "title": "CV",
+          "categoryid": {
+            "categoryname": "medical file"
+          }
+        }
+      ]
+    }
+  ]
+}
